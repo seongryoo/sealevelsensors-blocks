@@ -1,0 +1,178 @@
+[data-type="lowtide/width-container"].wp-block.block-editor-block-list__block.has-selected-ui {
+  padding: 0 2em;
+}
+
+[data-type="lowtide/width-container"].wp-block.block-editor-block-list__block.has-selected-ui::before {
+  background: none;
+  border-left: 3px dashed #003057;
+  border-right: 3px dashed #003057;
+  border-top: 1px solid #88b6dc80;
+  border-bottom: 1px solid #88b6dc80;
+}
+
+.wp-admin .wp-block {
+  max-width: 1280px;
+}
+
+[data-type="lowtide/basic-group"].wp-block.block-editor-block-list__block.has-selected-ui {
+  padding: 1em;
+}
+
+[data-type="lowtide/basic-group"].wp-block.block-editor-block-list__block.has-selected-ui::before {
+  background: none;
+  padding: 0 1em;
+  margin: 1em 0;
+  border-left: 3px dashed #B3A369;
+  border-right: 3px dashed #B3A369;
+  border-top: 1px solid #D5CBA680;
+  border-bottom: 1px solid #D5CBA680;
+}
+
+[data-type="lowtide/two-col-related-docs"].wp-block.block-editor-block-list__block.has-selected-ui {
+  padding: 1em;
+}
+
+[data-type="lowtide/two-col-related-docs"].wp-block.block-editor-block-list__block.has-selected-ui::before {
+  background: none;
+  padding: 0 1em;
+  margin: 1em 0;
+  border-left: 3px dashed #69b36c;
+  border-right: 3px dashed #69b36c;
+  border-top: 1px solid #69b36c80;
+  border-bottom: 1px solid #69b36c80;
+}
+
+/* Styling for text input blocks */
+.block-editor-block-list__layout 
+ .lowtide
+ .components-base-control 
+ .components-base-control__field {
+  margin-bottom: 1.25em;
+  border: 1px solid lightgray;
+  border-radius: 0.25em;
+  padding: 1em 1.25em;
+  background: white;
+  font-size: 1.5em;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ .components-base-control 
+ .components-base-control__field 
+ .block-editor-rich-text__editable {
+  padding: 0;
+  margin-top: 1em;
+  font-size: 0.75em;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  padding-bottom: 3px;
+  color: #666666;
+  transition: border-bottom 0.1s, padding 0.1s;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ .components-base-control 
+ .components-base-control__field 
+ .block-editor-rich-text__editable:focus {
+  padding-bottom: 6px;
+  border-bottom: 4px solid #1989c1;
+  color: black;
+  box-shadow: none;
+}
+.block-editor-block-list__layout 
+ .lowtide
+ .components-base-control 
+ .components-base-control__field 
+      input[type="text"]::placeholder {
+        color: rgba(0, 0, 0, 0.2);
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ .components-base-control 
+ .components-base-control__field 
+ .block-editor-rich-text__editable 
+        p {
+  margin: 8px 0 0 0 !important;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ .components-base-control 
+ .components-base-control__field 
+ input[type="text"] {
+  padding: 0;
+  margin-top: 1em;
+  font-size: 0.75em;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  color: #666666;
+  transition: border-bottom 0.1s, padding 0.1s;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ .components-base-control 
+ .components-base-control__field 
+ input[type="text"]:focus {
+  padding-bottom: 6px;
+  border-bottom: 4px solid #1989c1;
+  color: black;
+  box-shadow: none;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ .components-base-control 
+ .components-base-control__field 
+      label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ button.components-button.upload-button {
+  color: rgb(0, 124, 186);
+  font-size: 0.75em;
+  padding: 1.25em 1em;
+  border: 2px solid rgb(0, 124, 186);
+  transition: border 0.25s, color 0.25s, background 0.25s;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ button.components-button.upload-button 
+ span {
+  margin-right: 0.2em;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ button.components-button.upload-button:focus,
+.block-editor-block-list__layout 
+ .lowtide
+ button.components-button.upload-button:hover {
+  background: #1989c1 !important;
+  border: 2px solid #1989c1 !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ img.uploaded-image-display {
+  max-width: 250px;
+  display: block;
+  margin: 1em 0;
+}
+
+.block-editor-block-list__layout 
+ .lowtide
+ .components-datetime__date {
+  border: none;
+}
